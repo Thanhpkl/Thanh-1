@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+
+}
+header .header{
+    align-items: center;
+    background-color: #fdf2e9;
+    color: #555555;
+    display: flex;
+    font-size: 10px;
+    justify-content:space-between;
+    line-height:10px;
+    padding: 0px 48px;
+}
+.logo img{
+    height:2.2rem;
+    padding: 5px;
+    color: #0000ee;
+    display:inline;
+    font-size: 10px;
+    line-height: 10px;
+}
+.main_nav_list{
+    align-items:center;
+    color:#555555;
+    display: flex;
+    font-size: 10px;
+    gap: 48px;
+    line-height: 10px;
+}
+.main_nav_link a{
+    color: #333333;
+    display: inline-block;
+    font-family: Rubik;
+    font-size:18px;
+    font-weight: 500;
+    line-height: 18px;
+    margin-right: 60px;
+    transition: all 0.3s ease;
+}
+.main_nav_link a:hover{
+    text-decoration: underline  ;
+    color: #e67e22;
+}
+.main_nav_link .nav_cta {
+    background-color: #e67e22;
+    border-radius: 9px;
+    color: #ffffff;
+    display:inline-block;
+    font-family:Rubik;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    padding: 12px 24px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition: all 0.3s ease;
+}
+
+.main_nav_link .nav_cta button{
+    background-color: #e67e22;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    border: none;
+    font-family: Rubik;
+    transition: all 0.3s ease;
+}
+.main_nav_link .nav_cta button:hover{
+    transform: scale(1.2);
+}
+.section_hero{
+    background-color: #fdf2e9;
+    color: #555555;
+    font-size: 10px;
+    line-height: 10px;
+    padding: 48px 0px 96px;
+}
+.section_hero .hero{
+    align-items: center;
+    color: #555555;
+    display: grid;
+    font-size: 10px;
+    gap:  96px ;
+    grid-template-columns: 570px 570px;
+    grid-template-rows: 564.5px;
+    line-height: 10px;
+    margin: 0px 109.6px;
+    padding: 0px 32px;
+}
+.hero_text_box{
+    color: #555555;
+    font-size: 10px;
+    line-height: 10px;
+}
+.heading_primary h1{
+    color: #333333;
+    font-family: Rubik;
+    font-size: 52px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    line-height: 54.6px;
+    margin:  0px 0px 32px;
+}
+.hero_description p{
+    color: #555555;
+    font-family: Rubik;
+    font-size: 20px;
+    line-height:32px;
+    margin: 0px 0px 48px;
+}
+.btn0 a{
+    background-color: #e67e22;
+    border-radius: 9px;
+    color: #ffffff;
+    display: inline-block;
+    font-family: Rubik;
+    font-size:20px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0px 16px 0px 0px;
+    padding: 16px 32px;
+    transition: all 0.3s ease;
+}
+.btn0 a:hover{
+    transform: scale(1.1);
+   
+}
+.btn1 a{
+    background-color: #ffffff;
+    border-radius: 9px;
+    box-shadow: #000000 0px 0px 0px 0px;
+    color: #555555;
+    display: inline-block;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 600;
+    line-height:20px;
+    padding: 16px 32px;
+    transition: all 0.3s ease;
+}
+.btn1 a:hover{
+    transform: scale(1.1);
+}
+.btn{
+    display: flex;
+}
+.delivered_meals{
+    align-items: center;
+    color: #555555;
+    display: flex;
+    font-size: 10px;
+    gap: 16px;
+    line-height: 10px;
+    margin:80px 0px 0px ;
+}
+.img6 img{
+    border-color: #fdf2e9;
+    border-radius:50%;
+    border-style: solid;
+    border-width:3px;
+    color: #555555;
+    font-size: 10px;
+    line-height: 10px;
+    margin: 0px -16px 0px 0px;
+    height:48px;
+    width: 48px;
+}
+.img6{
+    display:flex;
+}
+.deleveried-text span{
+    color: #cf711f;
+    display: inline;
+    font-size:18px;
+    font-weight: 700;
+    line-height: 18px;
+}
+.deleveried-text p{
+    color: #555555;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight:600;
+    line-height: 18px;
+    display:flex;
+    margin-left: 7px;
+}
+.hero_img img{
+ color: #555555;
+ display: inline;
+ font-size: 10px;
+ line-height: 10px;
+ height: 570px;
+ width: 562px;
+ transition: all 0.3s ease;
+}
+.hero_img img:hover{
+  transform: scale(1.1)
+}
+.section_featured{
+    color: #555555;
+    font-size: 10px;
+    line-height: 10px;
+  padding: 48px 0px 32px;
+}
+.section_featured .container{
+    color: #555555;
+    font-size: 10px;
+    line-height: 10px;
+    margin: 0px 159.6px;
+    padding: 0px 32px;
+}
+.heading_featured_in h2{
+    color: #888888;
+    font-family: Rubik;
+    font-size:14px;
+    font-weight:500;
+    letter-spacing: 0.75px;
+    line-height: 14px;
+    margin:  0px 0px 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.logos{
+    display:flex;
+    flex-wrap: wrap;
+    font-size:10px;
+    justify-content:space-around;
+    line-height: 10px;
+}
+.how_section{
+    color: #555555;
+    font-size: 10px;
+    line-height: 10px;
+    padding: 96px 0px ;
+}
+.how_section .container{
+    color: #555555;
+    font-size: 10px;
+    line-height: 10px;
+    margin: 0px 159.6px;
+    padding: 0px 32px;
+}
+.subheading span{
+    color: #cf711f;
+    font-weight: 500;
+    letter-spacing:0.75px;
+    line-height:16px;
+    margin: 0px 0px 16px; 
+    text-transform: uppercase;
+    font-size:16px;
+}
+.heading_second h2{
+    color: #333333;
+    font-family: Rubik;
+    font-size:44px;
+    font-weight: 700;
+    letter-spacing:-0.5px;
+    line-height:52.8px;
+    margin: 0px 0px 96px;
+}
+.container1{
+    align-items: center;
+    color: #555555;
+    display: grid;
+    font-size: 10px;
+    gap: 96px 64px;
+    grid-template-columns:  536px 536px;
+    grid-template-rows:379.413px 379.413px 379.413px ;
+    line-height: 10px;
+    margin: 0px 159.6px ;
+    padding: 0px 32px;
+}
+.step_text_box{
+    color: #555555;
+    font-size: 10px;
+    line-height: 10px;
+}
+.step_number p{
+    color:#dddddd;
+    font-family: Rubik;
+    font-size:86px;
+    font-weight:600;
+    line-height: 86px;
+    margin: 0px 0px 12px
+}
+.heading_ter h3{
+    color:#333333;
+    font-family: Rubik;
+    font-size:30px;
+    font-weight:700;
+    letter-spacing:-0.5px;
+    line-height: 36px;
+    margin: 0px 0px 32px;
+}
+.step_descrip p{
+    color:#555555;
+    font-family: Rubik;
+    font-size:18px;
+    line-height:32.4px;
+}
+.step_img_box{
+    align-items: center;
+    color: #555555;
+    display: flex;
+    font-size: 10px;
+    justify-content:center;
+    line-height: 10px;
+}
+.step_img img{
+    color: #555555;
+    font-size: 10px;
+    line-height: 10px;
+    height:379px;
+    width:188px;
+}
+.meals{
+    color: #555555;
+    font-size: 10px;
+    line-height: 10px;
+    padding:96px 0px;
+}
+.container2{
+    color: #555555;
+    font-size: 10px;
+    line-height: 10px;
+    margin: 0px 159.6px;
+    padding: 0px 32px;
+    text-align: center;
+}

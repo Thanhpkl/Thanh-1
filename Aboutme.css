@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;1,500;1,600&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: #000000;
+}
+.h2 h2{
+    color: #ffffff;
+    font-family: 'Montserrat',sans-serif;
+    font-size:28px;
+    font-weight:500;
+    letter-spacing:-0.5px;
+    line-height:36px;
+    padding: 32px 0px 8px;
+    text-align: center;
+}
+.section{
+    color: #e2e3e3;
+    display:grid;
+    font-size: 14px;
+    gap: 0px 24px ;
+    grid-template-areas: ". main main main main main . aside aside aside aside .";
+    grid-template-columns: 91.325px 91.325px 91.325px 91.325px 91.325px 91.325px 91.325px 91.325px 91.325px 91.325px 91.325px 91.3375px;
+    grid-template-rows: 317.075px ;
+    line-height: 21px;
+    margin: 0px 48px;
+    padding: 0px 40px;
+}
+.section .image img{
+    color: #e2e3e3;
+    font-size: 14px;
+    line-height:21px;
+    margin: 0px -12px 0px 0px;
+    height: 300px;
+    width: 500px;
+    object-fit:cover
+}
+.section .textandtitle{
+    color: #e2e3e3;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    grid-area: aside / aside / aside / aside;
+    justify-content: center;
+    line-height:21px;
+}
+.section .textandtitle h4{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size:20px;
+    font-weight:500;
+    letter-spacing:-0.4px;
+    line-height:28px;
+    padding: 32px 0px 8px;
+}
+.section .textandtitle p{
+    color: #e2e3e3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 0px 0px 16px;
+}
