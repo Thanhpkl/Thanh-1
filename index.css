@@ -1,0 +1,638 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,600&family=Ubuntu:ital,wght@1,400;1,500;1,700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family:sans-serif,"Poppins";
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+   
+    background-color: rgba(19, 19, 19, 0.91);
+    /* background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(4,9,40,0.7),rgba(4,9,30));  */
+    position: relative;
+    padding: 20px;
+    width: 100%;
+    padding: 15px;
+    
+}
+header i{
+    margin-left: 20px;
+}
+.h4{
+    margin-left: -90px;
+}
+header i span{
+    color: #fc6d6d;
+    font-weight:600  ;
+    font-style: italic;
+    font-size: 20px;
+}
+header .list{
+    display: flex;
+    padding:  0 0px;
+    width: 100%;   
+    
+}
+
+header .list ul{
+    display: flex;
+    margin-left: 900px;
+
+}
+header .list ul li{
+    margin-right: 15px;
+    display: inline-block;
+
+    
+}
+header .list ul li a{
+    color: whitesmoke;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    font-style: italic;
+}
+header .list ul li a:hover{
+    text-decoration: underline  ;
+    text-shadow: 100px;
+    color: #fc6d6d;
+
+}
+.title{
+    text-align: center;
+    color: whitesmoke;
+    width: 100%;
+     height: 100vh;
+     background-color: rgba(19, 19, 19, 0.91);
+     padding: 250px;
+     padding-left: -30px;
+     width: 100%;
+     
+     text-align: center;
+    
+}
+.title h1 span{
+    color: #fc6d6d;
+}
+ul li i{
+    color: white;
+}
+header i{
+    color: white;
+     font-weight: 700;
+     font-style: italic;
+}
+.title h1{
+    width: 100%;
+    margin-left: -500px;
+    font-weight: 600;
+}
+.title .h1{
+    margin-left:  -250px;
+    font-size: 27px;
+   
+}
+.title .h2{
+    margin-left: -80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.title .h3{
+    font-size: 27px;
+   display: flex;
+   
+   margin-left: -120px;
+}
+.h3 .h4{
+    font-weight: 700;
+}
+
+.title .h3 .auto-text{
+    color: #fc6d6d;
+    font-weight: 600;
+    
+}
+.auto-text li span::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid #fc6d6d;
+    animation: typing 1,5s steps(10) infinite ;
+    
+    left: 0px;
+}
+
+@keyframes typing {
+    100% {
+        left: 100%;
+    }
+}
+.auto-text li span{
+    position: relative;
+}
+
+.body .h1{
+    
+    text-align: center;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 27px;
+    font-family: "Ubuntu";
+}
+.body .img-text{
+    display: flex;
+    /* flex-wrap: no-wrap; */
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+}
+.body .img-text:hover{
+    transform: scale(1,1);
+}
+.body{
+    margin-left: 130px;
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.body img{
+    height: 400px;
+    width: 400px;
+   display: block;
+   margin-right: 40px;
+   border-radius: 10px;
+  
+}
+.body .text{
+    display: block;
+    font-weight: 600;
+     font-size: 20px;
+     font-family: "Poppins" , "Ubuntu";
+     
+}
+.body .h1 span{
+    color: #fc6d6d;
+    font-style: italic;
+}
+.body .button{
+    
+    padding: 20px;
+    display: flex;
+    justify-content: end;
+    font-size: 30px;
+    font-family: "Ubuntu";
+}
+.body .button button{
+    padding: 20px;
+    padding-right: 40px ;
+    padding-left: 40px;
+    font-size: 15px;
+    border-radius: 8px;
+    border-radius: 10px;
+    background-color: #fc6d6d;
+    color: white;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    
+}
+.body .button button:hover{
+    background-color: transparent;
+    color: #fc6d6d;
+    border: 2px solid #fc6d6d;
+}
+.button0{
+    
+    padding: 20px;
+    margin-left: 200px;
+    display: inline-block;
+    height: 100%;
+    width: 100vh;
+    margin-bottom: -50px;
+
+}
+.button0 button{
+    padding: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #fc6d6d;
+}
+.button0 button:hover{
+    background-color: transparent;
+    border: 2px solid #fc6d6d;
+    color:#fc6d6d
+}
+header .title .h4 span{
+    color: #fc6d6d;
+}
+.card{
+ display: flex ;
+ padding: 0 80px;
+ background-color:rgba(19, 19, 19, 0.91) ;
+ /* background-color: red; */
+}
+.card .card1{
+    padding: 40px;
+
+    border: 2px solid crimson;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: sans-serif,"Poppins";
+    margin-right: 40px;
+    color: whitesmoke;
+   text-align: center;
+   margin-top: 60px;
+   border-radius: 9px;
+   background-color: transparent;
+   transition: all 0.3s ease;
+}
+.card .card2{
+    padding: 40px;
+    border: 2px solid crimson;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: sans-serif,"Poppins";
+    margin-right: 40px;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 60px;
+    border-radius: 9px;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+.card .card3{
+    padding: 40px;
+    border: 2px solid crimson;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: sans-serif,"Poppins";
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 60px;
+    border-radius: 9px;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+.card .card1 i{
+    color: #fc6d6d;
+
+}
+.card .card2 i{
+    color: #fc6d6d;
+    
+}
+.card .card3 i{
+    color: #fc6d6d;
+}
+.card .box{
+   font-size: 17px;
+   width: 100%;
+   height: 100%;
+   padding: 15px;
+   transition: all 0.3s ease;
+}
+.card .box:hover{
+    background-color: #fc6d6d;
+    transform: scale(1.05);
+    border-radius: 10px;
+}
+.card .box h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.card .box:hover i{
+   
+   
+   color: whitesmoke;
+}
+.title2{
+    text-align: center;
+    transition: all 0.3s ease;
+    padding: 10px;
+    background-color:  rgba(19, 19, 19, 0.91) ;
+    font-size: 30px;
+    color: #fc6d6d;
+    font-family: "Ubuntu";
+    cursor: pointer;
+    
+}
+.title2 span{
+    font-family: "Ubuntu";
+    color: #fc6d6d;
+}
+.title2:hover{
+    transform: scale(1,1);
+    color: white;
+}
+.develop .card-1 .box .p_and_img{
+   display: flex;
+   
+}
+.develop .card-1 .box img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.develop .card-1 .box{
+    border: 2px solid #fc6d6d;
+    margin-top: 20px;
+    border-radius: 20px;
+    display:block;
+    width:100%;
+    overflow: hidden;
+    background-color: rgba(19, 19, 19, 0.91)
+}
+.develop .card-1 .box .p_and_img p{
+    text-align: center;
+   margin-left: 150px;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 20px;
+   color: white;
+   transition: all 0.3s ease;
+   
+}
+.img-text .img{
+    transition: all 0.3s ease;
+}
+.img-text .img:hover{
+    transform:scale(1.1)
+}
+.develop .card-1 .box h1{
+    margin-bottom: 30px;
+    font-size:  27px;
+    text-align: center;
+    border-bottom: 2px solid whitesmoke;
+    color: #fc6d6d;
+}
+.develop {
+    margin-left: 130px;
+    max-width: 1300px;
+    padding: 0 5px;
+    margin: auto;
+    font-family: sans-serif,"Poppins";
+}
+.title3{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+   
+    
+}
+.card-1{
+    background-color:transparent;
+}
+.develop{
+    
+    width: 100%;
+
+}
+.title3 .myteam{
+     font-family: "Ubuntu";
+      transition: all 0.3s ease;
+      color: #fc6d6d;
+    font-style: italic;
+}
+.title3 .myteam span:hover{
+    text-decoration: underline;
+}
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top:50px;
+}
+.campus h1{
+    font-family: "Ubuntu";
+    font-size: 30px;
+    font-weight: 600;
+    font-style: italic;
+    color: #fc6d6d;
+    margin-bottom: 20px;
+}
+.campus p{
+    font-size: 18px;
+    font-style: italic;
+}
+ .row{
+    display: flex;
+    margin-left: 140px;
+    margin-top: 80px;
+}
+.campus-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom:30px;
+    position: relative;
+    overflow: hidden;
+
+}
+.campus-col img{
+    width: 400px;
+    height:800px;
+    object-fit: cover;
+    display: block;
+}
+.layer{
+    background:transparent;
+    height:100%;
+    width:400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    transition: all 0.3s ease;
+    
+}
+.layer:hover{
+    background: rgba(128, 128, 128, 0.7)
+}
+.layer h3{
+    width:100%;
+    font-weight: 500;
+    color: #fff;
+    font-size:26px;
+    bottom: 0;
+    left: 50%;
+    transform:translateX(-50%);
+    position:absolute;
+    opacity: 0;
+    transition: all 0.3s ease
+}
+.layer:hover h3{
+ bottom: 49%;
+ opacity: 1;
+}
+.facilities{
+    width: 80%;
+    margin-left: 60px ;
+    text-align: center;
+    padding-top: 100px;
+
+}
+.facilities-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.facilities-col img{
+    width: 100%;
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    margin-right: 15px;
+    transition: all 0.3s ease;
+}
+.facilities-col p{
+    padding:0px;
+    margin-left: 10px;
+    transition: all 0.3s ease;
+}
+.facilities-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;text-align: left;
+    
+}
+.facilities h1{
+    text-align: center;
+    font-size: 30px;
+    margin-left: 200px;
+    color: #fc6d6d;
+}
+.facilities-col img:hover{
+    transform: scale(1.05);
+}
+.facilities-col p:hover{
+  transform: scale(1.05);
+  color: #fc6d6d;
+}
+.testimonials{
+    width: 80%;
+    margin: auto;
+    padding: 100px;
+    text-align: center;
+}
+.testimonials-col{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #fff3f3;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+    margin-left: 30px;
+    transition: all 0.3s ease;
+}
+.testimonials-col img{
+    height:40px;
+    margin-left: 5px;
+    margin-right: 30px;
+  border-radius:50%;
+  object-fit:cover
+}
+.testimonials-col p{
+    padding: 0;
+}
+.testimonials-col h3{
+    margin-top: 15px;
+    text-align:left
+}
+.testimonials-col:hover{
+  transform: scale(1.2);
+  color: #fc6d6d;
+}
+.testimonials-col img:hover{
+    transform: scale(1.2)
+}
+.testimonials-col p:hover{
+    transform: scale(1.05);
+}
+#btn button:hover{
+    color: #fc6d6d;
+    background-color:white
+}
+
+
+p {
+  margin: 0 0 13px 0;
+}
+
+a {
+  color: #fff;
+}
+
+.center {
+  text-align: center;
+}
+
+.container1 {
+  width: 95%;
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.episode {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  position: relative;
+}
+
+.episode__number {
+  font-size: 10vw;
+  font-weight: 600;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  height: calc(10vw + 20px);
+  transition: all 0.2s ease-in;
+}
+
+.episode__content {
+  border-top: 2px solid rgba(128, 128, 128, 2);
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 10px;
+  padding: 15px 0;
+}
+
+.episode__content .title1 {
+  font-weight: 600;
+}
+
+.episode__content .story {
+  line-height: 26px;
+}
+
+@media (max-width: 600px) {
+  .episode__content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .episode__content .story {
+    font-size: 15px;
+  }
+}

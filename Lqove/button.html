@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./button.css">
+</head>
+<body>
+    
+    
+    <button id='btn_test'>Không</button>
+    <script>
+    //sets a random absolute position to a html element; receives the html element
+    function moveElmRand(elm){
+     elm.style.position ='absolute';
+     elm.style.top = Math.floor(Math.random()*90)+'%';
+     elm.style.left = Math.floor(Math.random()*90)+'%';
+    }
+    
+    //get the #btn_test
+    var btn_test = document.querySelector('#btn_test');
+    
+    //register to call moveElmRand() on mouseenter event to #btn_test
+    btn_test.addEventListener('mouseenter', function(e){ moveElmRand(e.target);});
+    
+    //register click to #btn_test
+    btn_test.addEventListener('click', function(e){ alert('You are Good.');});
+    </script>
+    <script src="button.js"></script>
+</body>
+</html>

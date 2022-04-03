@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Inspiration&family=Lobster&family=Palette+Mosaic&display=swap');
+.phananh{
+    height: 720px;
+    width: 2400px;
+    background-color: rgb(33, 6, 97);
+    display: flex;
+    justify-content: space-around;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.phananh1 img{
+height: 198px;
+width: 280px;   
+display: flex;
+border-radius: 24px 24px 0px 0px;
+}
+.phananh2 img{
+    height: 198px;
+    width: 280px;  
+    display: flex;
+    border-radius: 24px 24px 0px 0px;
+}
+.phananh3 img{
+    height: 198px;
+    width: 280px;  
+    display: flex;
+    border-radius: 24px 24px 0px 0px;
+}
+.phananh4 img{
+    height: 198px;
+    width: 280px;  
+    display: flex;
+    border-radius: 24px 24px 0px 0px;
+}
+.todayvid{
+height: 750px;
+font-size: xx-large;
+font-family: 'Boogaloo', cursive;
+display: flex;
+background-color: rgb(255, 255, 255);
+justify-content: space-around;
+align-items: center;
+}
+.todayvid input{
+    height: 100px;
+    width: 500px;
+    display: flex;
+    border-radius: 30px;
+}
+.phananh1 p{
+font-size: xx-large;
+background-color: aqua;
+}
+.tamnon img{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+}
+.tamnon {
+display: flex;
+}
+.tamnon p{
+    font-size: 20px;
+    
+}
